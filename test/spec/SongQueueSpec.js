@@ -64,6 +64,7 @@ describe('SongQueue', function() {
     });
   });
 
+
   describe('when a song is dequeued', function() {
     it('removes the song', function() {
       removeSpy = sinon.spy(SongQueue.prototype, 'remove');

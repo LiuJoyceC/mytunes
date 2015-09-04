@@ -1,0 +1,11 @@
+
+body {
+  background-color: white;
+}
+.app {
+  border: 3px solid black;
+  border-radius: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+}

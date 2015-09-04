@@ -1,9 +1,12 @@
 
 html, body {
-background: radial-gradient(#FFFFFF, #3895DD);
-background-repeat: no-repeat;
-height: 100%;
-vertical-align: middle;
+  background: #3895DD;
+  background: -webkit-radial-gradient(#FFFFFF, #3895DD);
+  background:    -moz-radial-gradient(#FFFFFF, #3895DD);
+  background:         radial-gradient(#FFFFFF, #3895DD);
+  background-repeat: no-repeat;
+  height: 100%;
+  vertical-align: middle;
 }
 
 
@@ -21,11 +24,9 @@ vertical-align: middle;
   top: 50%;
   transform: translateY(-50%);
 
-  background: #466368;
-  background: -webkit-linear-gradient(#648880, #293f50);
-  background:    -moz-linear-gradient(#648880, #293f50);
-  background:         linear-gradient(#9E9CA5, #504B4D);
-  background:         linear-gradient(to right bottom, #797275 20%, #9E9CA5 40%, #797275 60%);
+  background: #5B6379;
+  background: -webkit-linear-gradient(to right bottom, #5B6379 20%, white 40%, #5B6379 60%);
+  background:    -moz-linear-gradient(to right bottom, #5B6379 20%, white 40%, #5B6379 60%);
   background:         linear-gradient(to right bottom, #5B6379 20%, white 40%, #5B6379 60%);
 
 }
@@ -52,5 +53,4 @@ input {
 
 form {
   display: inline-block;
-  horizontal-align: right;
 }
